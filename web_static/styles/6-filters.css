@@ -4,7 +4,7 @@
   width: 100%;
   border: 1px solid #DDDDDD;
   border-radius: 4px;
-  display: flex;
+  display:flex;
 }
 
 .filters button {
@@ -29,14 +29,6 @@
   height: 100%;
   width: 25%;
 }
-/**/
-/* .locations { */
-/*   padding-left: 40px; */
-/* } */
-/**/
-/* .amenities { */
-/*   padding-left: 40px; */
-/* } */
 
 .filters div:first-of-type {
   border-right: 1px solid #DDDDDD;
@@ -78,4 +70,5 @@
 .amenities:hover .popover,
 .locations:hover .popover{
   display: block;
+  position: relative;
 }
